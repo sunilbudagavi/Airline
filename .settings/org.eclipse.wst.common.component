@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Airline1">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="gson-2.8.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/gson-2.8.9/gson-2.8.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-8.0.28.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-8.0.28/mysql-connector-java-8.0.28">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.mail.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.mail/javax.mail">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.activation-1.2.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.activation-1.2.0/javax.activation-1.2.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsp-api-2.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jsp-api-2.2/jsp-api-2.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.servlet-api-3.1.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.servlet-api-3.1.0/javax.servlet-api-3.1.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2-sources/jstl-1.2-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Airline1"/>
+        <property name="java-output-path" value="/Airline1/build/classes"/>
+    </wb-module>
+</project-modules>
